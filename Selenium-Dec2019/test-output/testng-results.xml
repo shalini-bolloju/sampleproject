@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18785" started-at="2019-12-25T12:56:57Z" finished-at="2019-12-25T12:57:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18785" started-at="2019-12-25T12:56:57Z" finished-at="2019-12-25T12:57:16Z">
+      <class name="TestNgPack.DataProviderEx">
+        <test-method status="PASS" signature="LaunchApp()[pri:0, instance:TestNgPack.DataProviderEx@100fc185]" name="LaunchApp" is-config="true" duration-ms="9125" started-at="2019-12-25T18:26:57Z" finished-at="2019-12-25T18:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="TC_GoogleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestNgPack.DataProviderEx@100fc185]" name="TC_GoogleSearch" duration-ms="3254" started-at="2019-12-25T18:27:06Z" data-provider="readdata" finished-at="2019-12-25T18:27:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmasters1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GoogleSearch -->
+        <test-method status="PASS" signature="TC_GoogleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestNgPack.DataProviderEx@100fc185]" name="TC_GoogleSearch" duration-ms="3147" started-at="2019-12-25T18:27:09Z" data-provider="readdata" finished-at="2019-12-25T18:27:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmasters2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GoogleSearch -->
+        <test-method status="PASS" signature="TC_GoogleSearch(java.lang.String, java.lang.String)[pri:0, instance:TestNgPack.DataProviderEx@100fc185]" name="TC_GoogleSearch" duration-ms="3193" started-at="2019-12-25T18:27:13Z" data-provider="readdata" finished-at="2019-12-25T18:27:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tmasters3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GoogleSearch -->
+      </class> <!-- TestNgPack.DataProviderEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
